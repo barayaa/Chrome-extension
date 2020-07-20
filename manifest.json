@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Codelocoll",
+    "description": "quick launch My social network",
+    "version": "1.0.0",
+    "icons": {"128":"cropped-codeloccol-logo.png"},
+    "browser_action":{
+        "default_icon": "cropped-codeloccol-logo.png",
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+}

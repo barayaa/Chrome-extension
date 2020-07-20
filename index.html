@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeloccol</title>
+    <link rel="stylesheet" href="https://googleapis.com/css?family=open+sans" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    <style>
+        html, body{
+            background-color: cornsilk;
+            font-family: 'oepn sans', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 170px;
+            padding: 0;
+            width: 300px;
+        }
+        h1{
+            font-family: 'Menlo', monospace;
+            font-size: 22px;
+            font-weight: 400;
+            max-width: 0;
+            color: #2f5876;
+        }
+        a:link,a:visited{
+            color: black;
+            outline: 0;
+            text-decoration: none;
+        }
+        .modal-header{
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+        .modal-content{
+            padding: 0 22px;
+        }
+        .modal-icons{
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100px;
+        }
+        .logo{
+            padding: 10px;
+        }
+        .logo-icon{
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+        .version{
+            color: #444;
+            font-size: 18px;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 8px;
+        }
+        .flex{
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+        .flex:hover{
+            opacity: 0.4;
+        }
+        .flex .fa{
+            margin:11px;
+            font-size: 40px;
+            color: #2f5876;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="cropped-codeloccol-logo.png" style="width: 85px;" alt="" class="logo-icon">Codeloccol
+            <span class="version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="modal-content">
+        <p>My Easily social Media acess</p>
+    </div>
+    <div class="modal-icons">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://intra.codeloccol.org/dashboard" target="_blank">
+                    <i class="fa fa-code slash"></i>
+                </a>
+            </div>
+                <div class="flex">
+                    <a href="https://twitter.com/abd0ul_wahab" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="www.github.com" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+                <div class="flex">
+                    <a href="https://www.youtube.com/channel/UCQo9bQ7-dqSSUeo7YnFSChw?view_as=subscriber" target="_blank">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </div>
+        </div>   
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
